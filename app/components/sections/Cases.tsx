@@ -30,7 +30,6 @@ export default function Cases(): JSX.Element {
               <div className="result"><div className="val">0</div><div className="lbl">Manual clicks required</div></div>
               <div className="result"><div className="val">100<span style={{ fontFamily: 'inherit' }}>%</span></div><div className="lbl">Config-driven setup</div></div>
             </div>
-            <a className="read-more" href="#">Read the case <span className="arr">→</span></a>
           </article>
 
           <article className="case-card reveal" data-d="2">
@@ -44,7 +43,6 @@ export default function Cases(): JSX.Element {
               <div className="result"><div className="val">1k+</div><div className="lbl">Images indexed</div></div>
               <div className="result"><div className="val">Real-<span className="it">time</span></div><div className="lbl">Live results</div></div>
             </div>
-            <a className="read-more" href="#">Read the case <span className="arr">→</span></a>
           </article>
         </div>
       </div>
