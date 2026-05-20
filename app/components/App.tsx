@@ -1,6 +1,6 @@
 'use client';
 
-import { Fragment, JSX } from 'react';
+import { Fragment, useState, JSX } from 'react';
 import useReveal from '../hooks/useReveal';
 import LoadingOverlay from './LoadingOverlay';
 import Nav from './sections/Nav';
@@ -15,12 +15,13 @@ import CTA from './sections/CTA';
 import Footer from './sections/Footer';
 
 export default function App(): JSX.Element {
+  const [introDone, setIntroDone] = useState(false);
   useReveal();
   return (
     <Fragment>
-      <LoadingOverlay />
+      <LoadingOverlay onComplete={() => setIntroDone(true)} />
       <Nav />
-      <Hero />
+      <Hero introDone={introDone} />
       <TrustBar />
       <Capabilities />
       <MarqueeStrip />

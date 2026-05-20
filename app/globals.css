@@ -225,6 +225,8 @@ html, body {
 .hero-headline .word {
   display: inline-block; margin: 0 0.12em;
   opacity: 0; transform: translateY(28px);
+}
+.hero-headline.animate .word {
   animation: fadeUp 0.9s var(--easing-fluid) forwards;
 }
 .hero-headline .it {

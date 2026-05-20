@@ -10,11 +10,12 @@ interface WordItem {
 interface StaggerHeadlineProps {
   words: WordItem[];
   accentIdx: number;
+  animate?: boolean;
 }
 
-export default function StaggerHeadline({ words, accentIdx }: StaggerHeadlineProps): JSX.Element {
+export default function StaggerHeadline({ words, accentIdx, animate = true }: StaggerHeadlineProps): JSX.Element {
   return (
-    <h1 className="hero-headline">
+    <h1 className={`hero-headline ${animate ? 'animate' : ''}`}>
       {words.map((w, i) => (
         <span key={i} className={`word ${w.it ? 'it' : ''} ${i === accentIdx ? 'accent' : ''}`}
           style={{ animationDelay: `${0.6 + i * 0.14}s` }}>

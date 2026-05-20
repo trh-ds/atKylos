@@ -3,7 +3,11 @@
 import { JSX } from 'react';
 import StaggerHeadline from '../StaggerHeadline';
 
-export default function Hero(): JSX.Element {
+interface HeroProps {
+  introDone?: boolean;
+}
+
+export default function Hero({ introDone = false }: HeroProps): JSX.Element {
   return (
     <section className="hero" id="top">
       <div className="wrap hero-inner">
@@ -16,6 +20,7 @@ export default function Hero(): JSX.Element {
               { text: 'flight.', it: true },
             ]}
             accentIdx={-1}
+            animate={introDone}
           />
         </div>
       </div>
