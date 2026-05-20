@@ -4,8 +4,9 @@ import { JSX } from 'react';
 
 export default function MarqueeStrip(): JSX.Element {
   const items = [
-    'Agentic AI', 'Workflow automation', 'RAG systems', 'Process orchestration',
-    'Multi-agent design', 'LLM ops', 'Custom copilots', 'Autonomous research',
+    'Full-Stack Dev', 'DevOps', 'App Development', 'IoT Systems',
+    'Agentic AI', 'Computer Vision', 'ML Engineering', 'MLOps',
+    'Workflow Automation', 'Visual Search',
   ];
 
   return (

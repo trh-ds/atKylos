@@ -14,15 +14,17 @@ export default function Footer(): JSX.Element {
               </span>
               <span><span className="at-prefix">at</span>Kylos</span>
             </div>
-            <p>An agentic AI and automation studio. We build the systems that flex, learn, and compound — so your team can do the work only humans can.</p>
+            <p>An emerging engineering studio building AI systems, connected hardware, and full-stack products. From Ahmedabad, for the world.</p>
           </div>
           <div className="footer-col">
             <h5>Services</h5>
             <ul>
-              <li><a href="#capabilities">Agentic systems</a></li>
-              <li><a href="#capabilities">Orchestration</a></li>
-              <li><a href="#capabilities">Custom copilots</a></li>
-              <li><a href="#capabilities">LLM ops</a></li>
+              <li><a href="#capabilities">Full Stack & DevOps</a></li>
+              <li><a href="#capabilities">App Development</a></li>
+              <li><a href="#capabilities">IoT Systems</a></li>
+              <li><a href="#capabilities">Agentic AI</a></li>
+              <li><a href="#capabilities">Computer Vision</a></li>
+              <li><a href="#capabilities">ML Engineering</a></li>
             </ul>
           </div>
           <div className="footer-col">
@@ -37,7 +39,7 @@ export default function Footer(): JSX.Element {
           <div className="footer-col">
             <h5>Contact</h5>
             <ul>
-              <li><a href="mailto:hello@atkylos.studio">hello@atkylos.studio</a></li>
+              <li><a href="mailto:nealatkylos@outlook.com,tirthatkylos@outlook.com?subject=Project%20Inquiry">hello@atkylos.studio</a></li>
               <li><a href="#">LinkedIn</a></li>
               <li><a href="#">Twitter / X</a></li>
               <li><a href="#">GitHub</a></li>
@@ -45,7 +47,7 @@ export default function Footer(): JSX.Element {
           </div>
         </div>
         <div className="footer-bottom">
-          <span>© 2026 atKylos studio · Brooklyn × Bengaluru</span>
+          <span>© 2026 atKylos Studio · Ahmedabad, India</span>
           <span>Built with intent · v0.4</span>
         </div>
       </div>

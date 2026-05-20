@@ -10,41 +10,42 @@ export default function Cases(): JSX.Element {
           <div className="lead">
             <span className="eyebrow reveal"><span className="dot"></span>Selected work</span>
             <h2 className="h-section reveal" data-d="1">
-              Systems we've put <span className="it">in flight.</span>
+              Two problems. <span className="it">Two working systems.</span>
             </h2>
           </div>
           <p className="copy reveal" data-d="2">
-            Three of the agentic workflows we've shipped this year. Each one started with a bottleneck, became a system, and is still learning.
+            We're early-stage and we'll say it plainly. Here's what we've shipped so far — real projects, real code, real outcomes.
           </p>
         </div>
 
         <div className="cases-row">
           <article className="case-card reveal" data-d="1">
-            <span className="tag">Featured · B2B SaaS</span>
-            <h4>From 400-hour onboarding to a <span className="it">six-day glide path.</span></h4>
+            <span className="tag">Featured · Agentic AI · Computer Vision</span>
+            <h4>MARG ERP <span className="it">report generation, fully automated.</span></h4>
             <p className="blurb">
-              A multi-agent system that drafts integration plans, runs sandbox tests, and hands off to humans only when needed. The customer success team now ships 14 onboardings/week with the same headcount.
+              MARG ERP has no public API — reports are buried inside a GUI built for humans. We built a computer vision agent that reads the screen, identifies the correct buttons and menus for each report type, navigates the UI autonomously, and exports all four report types on demand. Configuration lives in a simple <code>config.json</code> — no code changes needed to adjust report flows.
             </p>
             <div className="results">
-              <div className="result"><div className="val">98<span className="it">×</span></div><div className="lbl">Faster onboarding</div></div>
-              <div className="result"><div className="val">14<span style={{ fontFamily: 'inherit' }}>/wk</span></div><div className="lbl">Sustained throughput</div></div>
-              <div className="result"><div className="val">$420k</div><div className="lbl">Annual ops saved</div></div>
+              <div className="result"><div className="val">4</div><div className="lbl">Report types automated</div></div>
+              <div className="result"><div className="val">0</div><div className="lbl">Manual clicks required</div></div>
+              <div className="result"><div className="val">100<span style={{ fontFamily: 'inherit' }}>%</span></div><div className="lbl">Config-driven setup</div></div>
             </div>
             <a className="read-more" href="#">Read the case <span className="arr">→</span></a>
           </article>
 
-          <div className="case-mini">
-            <article className="case-card reveal" data-d="2">
-              <span className="tag">Fintech</span>
-              <h4>Risk memos <span className="it">in 90 seconds.</span></h4>
-              <a className="read-more" href="#">Read <span className="arr">→</span></a>
-            </article>
-            <article className="case-card reveal" data-d="3">
-              <span className="tag">E-commerce</span>
-              <h4>A copilot that <span className="it">never sleeps.</span></h4>
-              <a className="read-more" href="#">Read <span className="arr">→</span></a>
-            </article>
-          </div>
+          <article className="case-card reveal" data-d="2">
+            <span className="tag">Computer Vision · ML Engineering</span>
+            <h4>Image-based <span className="it">visual search engine.</span></h4>
+            <p className="blurb">
+              Built a visual search engine that lets users search by uploading an image instead of typing keywords. The system extracts visual embeddings, indexes them efficiently, and returns visually similar results in real time. Useful for e-commerce, inventory management, and content discovery.
+            </p>
+            <div className="results">
+              <div className="result"><div className="val">&lt;1s</div><div className="lbl">Query response</div></div>
+              <div className="result"><div className="val">1k+</div><div className="lbl">Images indexed</div></div>
+              <div className="result"><div className="val">Real-<span className="it">time</span></div><div className="lbl">Live results</div></div>
+            </div>
+            <a className="read-more" href="#">Read the case <span className="arr">→</span></a>
+          </article>
         </div>
       </div>
     </section>

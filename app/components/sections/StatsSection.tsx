@@ -25,17 +25,20 @@ export default function StatsSection(): JSX.Element {
       <div className="wrap">
         <div className="section-head" style={{ marginBottom: 60 }}>
           <div className="lead">
-            <span className="eyebrow reveal"><span className="dot"></span>Impact, measured</span>
+            <span className="eyebrow reveal"><span className="dot"></span>Early traction</span>
             <h2 className="h-section reveal" data-d="1">
-              Numbers <span className="it">that compound.</span>
+              Two clients. <span className="it">Real systems.</span>
             </h2>
           </div>
+          <p className="copy reveal" data-d="2">
+            We're an emerging studio — and every number here is earned, not inflated.
+          </p>
         </div>
         <div className="stats-grid">
-          <Stat value={4.2} suffix="×" label="Avg throughput lift" />
-          <Stat value={68} suffix="%" label="Reduction in manual ops" />
-          <Stat value={12} suffix=" days" label="Time to first agent in prod" />
-          <Stat value={97} suffix="%" label="Eval pass rate at launch" />
+          <Stat value={2} suffix="" label="Production systems built" />
+          <Stat value={6} suffix="" label="Disciplines covered" />
+          <Stat value={2} suffix=" wk" label="Avg time to working demo" />
+          <Stat value={10} suffix="k+" label="Lines of code shipped" />
         </div>
       </div>
     </section>

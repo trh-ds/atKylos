@@ -22,9 +22,9 @@ const instrumentSerif = Instrument_Serif({
 });
 
 export const metadata = {
-  title: 'atKylos \u00b7 Agentic Automation Studio',
+  title: 'atKylos · AI, Automation & Full-Stack Engineering Studio',
   description:
-    'atKylos builds agentic AI systems and automation that operate like nature \u2014 adaptive, autonomous, alive.',
+    'atKylos is an emerging engineering studio specializing in agentic AI, computer vision, full-stack development, IoT, mobile apps, and MLOps. We turn complex technical challenges into production-ready systems.',
 };
 
 interface RootLayoutProps {

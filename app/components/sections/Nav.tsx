@@ -17,8 +17,8 @@ export default function Nav(): JSX.Element {
         <a href="#cases">Work</a>
         <a href="#contact">Contact</a>
       </div>
-      <a href="#contact" className="btn btn-primary">
-        Book a call <span className="arr">→</span>
+      <a href="mailto:nealatkylos@outlook.com,tirthatkylos@outlook.com?subject=Project%20Inquiry" className="btn btn-primary">
+        Book a Discovery Call <span className="arr">→</span>
       </a>
     </nav>
   );

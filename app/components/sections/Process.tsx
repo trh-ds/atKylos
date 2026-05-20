@@ -9,9 +9,9 @@ interface StepItem {
 }
 
 const STEPS: StepItem[] = [
-  { n: '01', title: 'Observe', body: 'We sit beside your team for two weeks, mapping decisions, bottlenecks, and the data that already lives in your stack. No deck-first consulting.' },
-  { n: '02', title: 'Compose', body: 'We design the agent graph — what reasons, what acts, what stays human. Built in your stack, deployable in days, not quarters.' },
-  { n: '03', title: 'Compound', body: 'Once live, we tune relentlessly. Evals, dashboards, weekly improvement cycles. The system gets sharper every month.' },
+  { n: '01', title: 'Discover', body: "We start by understanding what you're actually trying to solve. Technical audit, workflow mapping, constraint analysis. This is where we figure out what to build and what to skip — before writing a single line of code." },
+  { n: '02', title: 'Build', body: 'Tight iterations, working software. We build in short sprints and ship functional increments — not Figma decks. You see progress weekly, not quarterly.' },
+  { n: '03', title: 'Ship', body: 'Production is the goal, not a staging environment. We deploy with monitoring, documentation, and handoff support so the system actually runs — and keeps running.' },
 ];
 
 export default function Process(): JSX.Element {
@@ -22,11 +22,11 @@ export default function Process(): JSX.Element {
           <div className="lead">
             <span className="eyebrow reveal"><span className="dot"></span>Process</span>
             <h2 className="h-section reveal" data-d="1">
-              Observe. <span className="it">Compose.</span> Compound.
+              Discover. <span className="it">Build.</span> Ship.
             </h2>
           </div>
           <p className="copy reveal" data-d="2">
-            Three movements, repeated. A working agent in 4 weeks, evaluated in 6, compounding from week 8 onward.
+            We don't do long scoping phases. We move fast — with precision. Every engagement starts with understanding your actual problem, not assumptions.
           </p>
         </div>
         <div className="process-grid">
