@@ -168,7 +168,7 @@ export default function LoadingOverlay({ onComplete }: LoadingOverlayProps): JSX
     tl.to(
       logoWrap,
       {
-        x: -110,
+        x: -48,
         duration: 1.0,
         ease: 'power3.inOut',
       },
@@ -228,29 +228,35 @@ export default function LoadingOverlay({ onComplete }: LoadingOverlayProps): JSX
           display: 'flex',
           alignItems: 'center',
           justifyContent: 'center',
-          transform: 'translateX(70px)',
         }}
       >
         {/* Logo */}
         <div ref={logoWrapRef} style={{ flexShrink: 0 }}>
-          <LogoMark size={180} />
+          <LogoMark size={90} />
         </div>
 
         {/* Wordmark */}
         <div
           ref={textWrapRef}
           style={{
-            marginLeft: 28,
+            marginLeft: 10,
             fontFamily: "'Space Grotesk', sans-serif",
             fontWeight: 500,
-            fontSize: 'clamp(36px, 5.5vw, 68px)',
+            fontSize: 'clamp(28px, 4.2vw, 52px)',
             letterSpacing: '-0.035em',
-            color: '#F5F1E8',
             lineHeight: 1,
             overflow: 'hidden',
+            display: 'inline-flex',
+            alignItems: 'baseline',
+            gap: '0.02em',
           }}
         >
-          <SplitText text="atKylos" />
+          <span style={{ color: 'rgba(245, 241, 232, 0.45)' }}>
+            <SplitText text="at" />
+          </span>
+          <span style={{ color: '#F5F1E8' }}>
+            <SplitText text="Kylos" />
+          </span>
         </div>
       </div>
 

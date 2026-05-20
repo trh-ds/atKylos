@@ -8,7 +8,7 @@ export default function CTA(): JSX.Element {
       <div className="wrap cta-inner">
         <span className="eyebrow reveal"><span className="dot"></span>Let's build</span>
         <h2 className="cta-headline reveal" data-d="1">
-          Your next system <span className="it">is already alive.</span><br />
+          Your next system is <span className="it">already alive.</span><br />
           <span className="accent">It just needs to take shape.</span>
         </h2>
         <p className="cta-sub reveal" data-d="2">
