@@ -39,7 +39,7 @@ export default function Footer(): JSX.Element {
           <div className="footer-col">
             <h5>Contact</h5>
             <ul>
-              <li><a href="mailto:nealatkylos@outlook.com,tirthatkylos@outlook.com?subject=Project%20Inquiry">hello@atkylos.studio</a></li>
+              <li><a href="mailto:nealatkylos@outlook.com,tirthatkylos@outlook.com?subject=Project%20Inquiry">Contact Us</a></li>
               <li><a href="#">LinkedIn</a></li>
               <li><a href="#">Twitter / X</a></li>
               <li><a href="#">GitHub</a></li>
